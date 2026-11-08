@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+  <!-- Enforce HTTPS: redirects any http:// visit (GitHub Pages also has an "Enforce HTTPS" switch, see README) -->
+  <script>
+    if (location.protocol === "http:" && !/^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname)) {
+      location.replace("https:" + location.href.substring(location.protocol.length));
+    }
+  </script>
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+
+  <!-- Primary meta -->
+  <title>i2P | From Idea to Prototype. Launching 1 January 2027</title>
+  <meta name="description" content="i2P is an AI-powered engineering platform that turns your idea into a realistic prototype, circuit design, component list and starter code. Launching 1 January 2027. Join the waiting list.">
+  <meta name="author" content="Munaxxe">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+  <link rel="canonical" href="https://munaxxe.github.io/i2p/">
+  <meta name="theme-color" content="#000000">
+  <meta name="color-scheme" content="dark light">
+  <meta name="application-name" content="i2P">
+  <meta name="apple-mobile-web-app-title" content="i2P">
+
+  <!-- Open Graph (Facebook, LinkedIn, WhatsApp) -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="i2P">
+  <meta property="og:title" content="i2P | From Idea to Prototype.">
+  <meta property="og:description" content="Turn your engineering idea into a realistic prototype, circuit design, component list and starter code. Launching 1 January 2027.">
+  <meta property="og:url" content="https://munaxxe.github.io/i2p/">
+  <meta property="og:image" content="https://munaxxe.github.io/i2p/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="i2P logo with the line From Idea to Prototype">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="i2P | From Idea to Prototype.">
+  <meta name="twitter:description" content="Turn your engineering idea into a realistic prototype, circuit design, component list and starter code. Launching 1 January 2027.">
+  <meta name="twitter:image" content="https://munaxxe.github.io/i2p/assets/og-image.png">
+  <meta name="twitter:image:alt" content="i2P logo with the line From Idea to Prototype">
+
+  <!-- Icons -->
+  <link rel="icon" type="image/png" sizes="48x48" href="assets/favicon-48.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="assets/favicon-512.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+  <!-- Fonts and styles -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=6">
+  <link rel="preload" as="image" href="assets/logo-dark.png" media="(prefers-color-scheme: dark)">
+
+  <!-- Structured data (schema.org) -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://munaxxe.github.io/i2p/#organization",
+      "name": "i2P",
+      "alternateName": "Idea to Prototype",
+      "url": "https://munaxxe.github.io/i2p/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://munaxxe.github.io/i2p/assets/logo-light.png",
+        "width": 621,
+        "height": 289
+      },
+      "image": "https://munaxxe.github.io/i2p/assets/og-image.png",
+      "founder": {
+        "@type": "Organization",
+        "name": "Munaxxe",
+        "url": "https://munaxxe.co.zw"
+      },
+      "sameAs": [
+        "https://munaxxe.co.zw"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://munaxxe.github.io/i2p/#website",
+      "url": "https://munaxxe.github.io/i2p/",
+      "name": "i2P",
+      "description": "i2P is an AI-powered engineering platform that turns your idea into a realistic prototype, circuit design, component list and starter code. Launching 1 January 2027. Join the waiting list.",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://munaxxe.github.io/i2p/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://munaxxe.github.io/i2p/#webpage",
+      "url": "https://munaxxe.github.io/i2p/",
+      "name": "i2P | From Idea to Prototype. Launching 1 January 2027",
+      "description": "i2P is an AI-powered engineering platform that turns your idea into a realistic prototype, circuit design, component list and starter code. Launching 1 January 2027. Join the waiting list.",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://munaxxe.github.io/i2p/#website"
+      },
+      "about": {
+        "@id": "https://munaxxe.github.io/i2p/#software"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://munaxxe.github.io/i2p/assets/og-image.png"
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://munaxxe.github.io/i2p/#software",
+      "name": "i2P",
+      "alternateName": "Idea to Prototype",
+      "description": "An AI-powered engineering platform that turns an idea into a realistic prototype, circuit diagram, component list and starter code.",
+      "applicationCategory": "DeveloperApplication",
+      "operatingSystem": "Web",
+      "url": "https://munaxxe.github.io/i2p/",
+      "image": "https://munaxxe.github.io/i2p/assets/og-image.png",
+      "creator": {
+        "@id": "https://munaxxe.github.io/i2p/#organization"
+      }
+    }
+  ]
+}
+  </script>
+
+  <!-- Apply saved theme before first paint (avoids a flash) -->
+  <script>
+    (function () {
+      try {
+        var pref = localStorage.getItem("i2p-theme") || "system";
+        var dark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+        document.documentElement.setAttribute("data-theme", pref === "system" ? (dark ? "dark" : "light") : pref);
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+
+<!-- ===================== HEADER ===================== -->
+<header class="site-header" id="header">
+  <div class="container nav">
+    <a href="#home" class="brand" aria-label="i2P home">
+      <img class="logo logo-for-dark" src="assets/logo-dark.png" alt="i2P" width="616" height="289">
+      <img class="logo logo-for-light" src="assets/logo-light.png" alt="i2P" width="621" height="289">
+    </a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a class="link" href="#home">Home</a></li>
+      <li><a class="link" href="#how">How It Works</a></li>
+      <li><a class="link" href="https://munaxxe.co.zw" target="_blank" rel="noopener">Creators Corner <i data-lucide="arrow-up-right" style="width:14px;height:14px"></i></a></li>
+      <li class="mobile-cta"><a class="btn btn-primary" href="#waitlist">Join Waiting List</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <button class="icon-btn" id="themeBtn" aria-label="Change theme" title="Theme: system"><i data-lucide="monitor"></i></button>
+      <a class="btn btn-primary btn-sm" href="#waitlist">Join Waiting List</a>
+      <button class="icon-btn menu-toggle" id="menuBtn" aria-label="Open menu" aria-expanded="false"><i data-lucide="menu"></i></button>
+    </div>
+  </div>
+</header>
+
+<main>
+<!-- ===================== HOME ===================== -->
+<section class="hero" id="home">
+  <div class="container hero-grid">
+
+    <!-- Interactive visual: Idea, Concept, Prototype -->
+    <div class="hero-visual">
+      <div class="morph" id="morph">
+        <div class="morph-tabs" role="tablist" aria-label="From idea to prototype">
+          <button class="on" role="tab" aria-selected="true">Idea</button>
+          <button role="tab" aria-selected="false">Concept</button>
+          <button role="tab" aria-selected="false">Prototype</button>
+        </div>
+
+        <div class="screen">
+          <!-- Idea -->
+          <div class="morph-stage on">
+            <div class="idea-card">
+              <span class="idea-label">YOUR IDEA · plain English</span>
+              <p class="idea-text"><span id="typed"></span><span class="caret"></span></p>
+              <span class="idea-note" id="typedNote"><i data-lucide="check-circle-2" style="width:15px;height:15px"></i> i2P is turning this into a design…</span>
+            </div>
+          </div>
+          <!-- Concept -->
+          <div class="morph-stage"><img src="assets/img/step3-visualisation.svg" alt="Cut-away of the bedroom showing the sensor box, ceiling light and detection zone" loading="lazy"></div>
+          <!-- Prototype -->
+          <div class="morph-stage"><img src="assets/img/device-closed.svg" alt="The finished wall-mounted sensor box" loading="lazy"></div>
+        </div>
+        <p class="morph-caption" id="morphCaption">Say it the way you'd tell a friend.</p>
+      </div>
+    </div>
+
+    <div class="hero-copy">
+      <span class="pill"><span class="dot"></span> Launching 1 January 2027</span>
+      <h1 aria-label="From Idea to Prototype.">From Idea<br>to <span class="accent tw" id="heroTyped" data-text="Prototype."><span class="tw-text">Prototype.</span></span></h1>
+      <p class="lead">Transform your engineering ideas into realistic prototypes, circuit designs, component lists and starter code.</p>
+
+      <!-- Mini countdown -->
+      <div class="mini-cd" id="miniCd">
+        <div class="mini-pre">
+          <span class="mini-label">Launch in</span>
+          <div class="mini-boxes" role="timer" aria-live="off">
+            <div class="mini-box"><b id="cdDays">--</b><i>days</i></div>
+            <div class="mini-box"><b id="cdHours">--</b><i>hrs</i></div>
+            <div class="mini-box"><b id="cdMins">--</b><i>min</i></div>
+            <div class="mini-box"><b id="cdSecs">--</b><i>sec</i></div>
+          </div>
+        </div>
+        <div class="mini-launched">
+          <b>i2P IS HERE!</b>
+          <span>The wait is over. i2P has officially launched. Waiting-list members will be contacted first.</span>
+        </div>
+      </div>
+
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#waitlist">Join Waiting List</a>
+        <a class="btn btn-ghost" href="#how">See how it works <i data-lucide="arrow-down" style="width:16px;height:16px"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== HOW IT WORKS ===================== -->
+<section class="section alt" id="how">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">How it works</span>
+      <h2>Five steps from a sentence to a device.</h2>
+      <p>Imagine this...</p>
+      <blockquote class="example">“I want my bedroom light to turn on when I enter the room, and I also want to control it using my phone.”</blockquote>
+    </div>
+
+    <div class="how-grid reveal">
+      <div class="stage-list" role="tablist" aria-label="i2P stages" id="stageList">
+        <button class="stage-btn" role="tab" aria-selected="true" data-stage="0">
+          <span class="n">01</span>
+          <div><h3>Describe your idea</h3><p>Say it the way you'd tell a friend. No technical words and no part numbers.</p></div>
+        </button>
+        <button class="stage-btn" role="tab" aria-selected="false" data-stage="1">
+          <span class="n">02</span>
+          <div><h3>Idea development</h3>
+            <p><b>Input:</b> what it senses, such as movement, how dark the room is and a command from your phone.<br>
+            <b>Processes:</b> the controller and the rules it follows.<br>
+            <b>Output:</b> the circuit, the model and a 3D visualisation that updates in real time.</p></div>
+        </button>
+        <button class="stage-btn" role="tab" aria-selected="false" data-stage="2">
+          <span class="n">03</span>
+          <div><h3>Concept visualisation</h3><p>See the idea in the place it will live: the sensor on the wall by the bedroom door, the light overhead and the area it watches.</p></div>
+        </button>
+        <button class="stage-btn" role="tab" aria-selected="false" data-stage="3">
+          <span class="n">04</span>
+          <div><h3>Generation</h3><p>Everything needed to build it: components, circuit and code, plus a website or phone app if your idea needs one.</p></div>
+        </button>
+        <button class="stage-btn" role="tab" aria-selected="false" data-stage="4">
+          <span class="n">05</span>
+          <div><h3>Prototype</h3><p>The final device, ready to build: sensor, controller and relay in one small wall box.</p></div>
+        </button>
+      </div>
+
+      <div class="stage-visual-wrap" id="stageVisuals">
+        <!-- 01 -->
+        <div class="stage-visual on" data-stage="0">
+          <div class="screen"><img class="sub on" src="assets/img/step1-idea.svg" alt="The plain-English idea is interpreted into trigger, condition, action and extra" loading="lazy"></div>
+        </div>
+        <!-- 02 -->
+        <div class="stage-visual" data-stage="1">
+          <div class="screen"><img class="sub on" src="assets/img/step2-development.svg" alt="Inputs, processes and outputs for the bedroom light" loading="lazy"></div>
+        </div>
+        <!-- 03 -->
+        <div class="stage-visual" data-stage="2">
+          <div class="screen"><img class="sub on" src="assets/img/step3-visualisation.svg" alt="Cut-away of the bedroom showing the sensor box, ceiling light and detection zone" loading="lazy"></div>
+        </div>
+        <!-- 04 -->
+        <div class="stage-visual" data-stage="3">
+          <div class="subtabs" role="tablist" aria-label="Generated outputs">
+            <button class="on" role="tab" aria-selected="true">Components</button>
+            <button role="tab" aria-selected="false">Circuit</button>
+            <button role="tab" aria-selected="false">Code</button>
+            <button role="tab" aria-selected="false">App</button>
+          </div>
+          <div class="screen">
+            <img class="sub on" src="assets/img/step4-components.svg" alt="Bill of materials" loading="lazy">
+            <img class="sub" src="assets/img/step4-circuit.svg" alt="Circuit schematic" loading="lazy">
+            <img class="sub" src="assets/img/step4-code.svg" alt="Starter code" loading="lazy">
+            <img class="sub" src="assets/img/step4-app.svg" alt="Phone app and web dashboard" loading="lazy">
+          </div>
+        </div>
+        <!-- 05 -->
+        <div class="stage-visual" data-stage="4">
+          <div class="subtabs" role="tablist" aria-label="Final device views">
+            <button class="on" role="tab" aria-selected="true">Outside</button>
+            <button role="tab" aria-selected="false">Inside</button>
+          </div>
+          <div class="screen">
+            <img class="sub on" src="assets/img/device-closed.svg" alt="The finished wall-mounted sensor box" loading="lazy">
+            <img class="sub" src="assets/img/device-open.svg" alt="Inside the finished device" loading="lazy">
+          </div>
+        </div>
+        <p class="zoom-hint"><i data-lucide="zoom-in" style="width:14px;height:14px"></i> Tap a drawing to enlarge it</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== WAITING LIST ===================== -->
+<section class="section" id="waitlist">
+  <div class="container waitlist-grid">
+    <div class="intro reveal">
+      <span class="eyebrow">Waiting list</span>
+      <h2>Be first in line when i2P launches.</h2>
+      <p>Join the waiting list and we'll let you know on launch day, 1&nbsp;January&nbsp;2027.</p>
+      <ul class="perks">
+        <li><i data-lucide="bell-ring"></i><span>Launch-day notification</span></li>
+        <li><i data-lucide="mail-check"></i><span>No spam. Launch updates only</span></li>
+        <li><i data-lucide="shield-check"></i><span>One registration per email address</span></li>
+      </ul>
+    </div>
+
+    <form class="form-card reveal" id="waitlistForm" novalidate>
+      <div class="field" id="f-name">
+        <label for="name">Full name</label>
+        <input id="name" name="name" type="text" autocomplete="name" placeholder="Your full name" maxlength="120">
+        <div class="err">Please enter your full name.</div>
+      </div>
+      <div class="field" id="f-email">
+        <label for="email">Email address</label>
+        <input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" maxlength="160">
+        <div class="err">Please enter a valid email address.</div>
+      </div>
+      <div class="field">
+        <label for="org">Institution or organisation <span class="opt">(optional)</span></label>
+        <input id="org" name="organisation" type="text" autocomplete="organization" placeholder="University, company, school…" maxlength="160">
+      </div>
+      <div class="field">
+        <label for="interest">Area of interest <span class="opt">(optional)</span></label>
+        <select id="interest" name="interest">
+          <option value="">Select an area…</option>
+          <option>Smart home &amp; automation</option>
+          <option>Agriculture &amp; irrigation</option>
+          <option>IoT &amp; monitoring</option>
+          <option>Renewable energy</option>
+          <option>Security systems</option>
+          <option>Education &amp; teaching</option>
+          <option>Robotics</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <!-- Honeypot: real people never fill this in -->
+      <input class="hp" type="text" name="website" id="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <button class="btn btn-primary" id="submitBtn" type="submit" style="width:100%">
+        <span class="spinner"></span><span id="submitLabel">Join Waiting List</span>
+      </button>
+      <div class="form-msg" id="formMsg" role="status" aria-live="polite"></div>
+      <p class="fine">By joining you agree to be contacted about the i2P launch. See our <a href="#privacyModal" class="accent" data-open-privacy>Privacy Policy</a>.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="site-footer">
+  <div class="container footer-row">
+    <div>
+      <a href="#home" class="brand brand-lg" aria-label="i2P home">
+        <img class="logo logo-for-dark" src="assets/logo-dark.png" alt="i2P" width="616" height="289" loading="lazy">
+        <img class="logo logo-for-light" src="assets/logo-light.png" alt="i2P" width="621" height="289" loading="lazy">
+      </a>
+      
+    </div>
+    <ul class="foot-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#how">How It Works</a></li>
+      <li><a href="#waitlist">Waiting List</a></li>
+      <li><a href="https://munaxxe.co.zw" target="_blank" rel="noopener">Creators Corner</a></li>
+      <li><a href="#privacyModal" data-open-privacy>Privacy Policy</a></li>
+    </ul>
+    <div class="foot-contact">
+      <a class="btn btn-primary btn-sm" href="#waitlist">Join Waiting List</a>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© <span id="year">2026</span> i2P. All rights reserved.</span>
+    <a class="powered" href="https://munaxxe.co.zw" target="_blank" rel="noopener">Powered by Muna<span class="xx">xx</span>e</a>
+  </div>
+</footer>
+
+<!-- Back to top -->
+<button class="to-top" id="toTop" type="button" aria-label="Back to top" title="Back to top">
+  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5"/><path d="M5 12l7-7 7 7"/></svg>
+</button>
+
+<!-- Drawing viewer: tap any drawing to enlarge -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Enlarged drawing" hidden>
+  <button class="icon-btn lb-close" id="lbClose" aria-label="Close"><i data-lucide="x"></i></button>
+  <div class="lb-scroll" id="lbScroll"><img id="lbImg" alt=""></div>
+</div>
+
+<!-- Privacy modal -->
+<div class="modal" id="privacyModal" role="dialog" aria-modal="true" aria-labelledby="privacyTitle">
+  <div class="modal-box">
+    <button class="icon-btn modal-close" id="privacyClose" aria-label="Close"><i data-lucide="x"></i></button>
+    <h3 id="privacyTitle">Privacy Policy</h3>
+    <p><b>What we collect.</b> When you join the waiting list we collect your name, email address and, optionally, your institution and area of interest.</p>
+    <p><b>How we use it.</b> We use this information only to contact you about the i2P launch and related updates.</p>
+    <p><b>Storage.</b> Registrations are stored in a private Google Sheet controlled by the i2P team.</p>
+    <p><b>Your choices.</b> You can ask us to correct or delete your details at any time through munaxxe.co.zw.</p>
+    <p><b>Local storage.</b> This site stores only your theme preference in your browser. No tracking cookies are used.</p>
+  </div>
+</div>
+
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+<script src="script.js?v=6"></script>
+</body>
+</html>

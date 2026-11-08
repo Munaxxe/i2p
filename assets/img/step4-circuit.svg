@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 704 440" role="img" aria-label="Schematic of the bedroom light: power module, PIR sensor, light sensor divider, ESP32-C3, relay and lamp">
+<style>
+text{font-family:system-ui,"Segoe UI","Helvetica Neue",Arial,sans-serif;fill:#c3d5e1;font-size:10.5px}
+.b{fill:#43B3E7}.w{fill:#fff}.h{font-weight:700}
+.l{fill:none;stroke:#43B3E7;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.r{fill:none;stroke:#ff6b6b;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.g{fill:none;stroke:#c3d5e1;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.y{fill:none;stroke:#ffd54a;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.m{fill:none;stroke:#ffb86b;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+.p{fill:#0a1d2a;stroke:#43B3E7;stroke-width:1.4}
+</style>
+<defs><pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse"><path d="M22 0H0V22" fill="none" stroke="#43B3E7" stroke-opacity=".08"/></pattern></defs>
+<rect width="704" height="440" fill="#06121b"/><rect width="704" height="440" fill="url(#grid)"/>
+
+<g transform="translate(0 12) scale(.925)">
+  <text x="20" y="22" class="b h" style="font-size:11px">SCHEMATIC · Bedroom light · REV A</text>
+
+  <!-- rails -->
+  <path class="r" d="M150 50 H600"/><path class="g" d="M150 400 H600"/>
+  <text x="604" y="54" class="w" style="fill:#ff6b6b">+5V</text><text x="604" y="404">GND</text>
+
+  <!-- PS1 -->
+  <rect x="40" y="170" width="90" height="100" rx="5" class="p"/>
+  <text x="85" y="206" text-anchor="middle" class="w h">PS1</text><text x="85" y="222" text-anchor="middle">AC → 5 V</text><text x="85" y="238" text-anchor="middle">HLK-PM01</text><text x="85" y="258" text-anchor="middle" style="font-size:10.5px;fill:#ffb86b">230 V IN</text>
+  <path class="r" d="M130 190 H150 V50"/><path class="g" d="M130 250 H150 V400"/>
+  <circle cx="150" cy="50" r="3" fill="#ff6b6b"/><circle cx="150" cy="400" r="3" fill="#c3d5e1"/>
+
+  <!-- S1 PIR -->
+  <rect x="185" y="90" width="90" height="70" rx="5" class="p"/>
+  <text x="230" y="116" text-anchor="middle" class="w h">S1 PIR</text><text x="230" y="132" text-anchor="middle">HC-SR501</text>
+  <text x="192" y="152" style="font-size:9.5px">VCC</text><text x="248" y="152" style="font-size:9.5px">OUT</text>
+  <path class="r" d="M210 90 V50"/><circle cx="210" cy="50" r="3" fill="#ff6b6b"/>
+  <path class="g" d="M200 160 V400"/><circle cx="200" cy="400" r="3" fill="#c3d5e1"/>
+  <path class="y" d="M275 125 H300 V150 H350"/>
+
+  <!-- LDR divider -->
+  <path class="l" d="M250 185 V250"/>
+  <rect x="236" y="250" width="28" height="40" rx="3" class="p"/>
+  <path class="l" style="stroke-width:1" d="M242 262 l4 -6 l4 12 l4 -12 l4 12"/>
+  <path class="l" style="stroke-width:1" d="M232 244 l-8 -8 M224 236 l0 6 M224 236 l6 0"/>
+  <text x="272" y="274">S2 LDR</text>
+  <path class="l" d="M250 290 V310"/><circle cx="250" cy="310" r="3" class="b"/>
+  <rect x="236" y="320" width="28" height="40" rx="3" class="p"/>
+  <text x="272" y="344">R1 10k</text>
+  <path class="g" d="M250 360 V400"/><circle cx="250" cy="400" r="3" fill="#c3d5e1"/>
+  <path class="y" d="M250 310 H320 V265 H350"/>
+  <text x="258" y="304" style="font-size:9.5px">node</text>
+
+  <!-- MCU -->
+  <rect x="350" y="100" width="120" height="250" rx="6" class="p"/>
+  <text x="410" y="215" text-anchor="middle" class="w h" style="font-size:12px">U1</text><text x="410" y="232" text-anchor="middle">ESP32-C3</text>
+  <text x="356" y="124" style="font-size:10.5px">5V</text><text x="356" y="154" style="font-size:10.5px">GPIO2</text><text x="356" y="189" style="font-size:10.5px">3V3</text><text x="356" y="269" style="font-size:10.5px">GPIO0 (ADC)</text><text x="356" y="339" style="font-size:10.5px">GND</text><text x="438" y="154" style="font-size:10.5px">GPIO5</text>
+  <path class="r" d="M350 120 H330 V50"/><circle cx="330" cy="50" r="3" fill="#ff6b6b"/>
+  <path class="l" d="M350 185 H250"/>
+  <path class="g" d="M350 335 H330 V400"/><circle cx="330" cy="400" r="3" fill="#c3d5e1"/>
+  <path class="y" d="M470 150 H530"/>
+
+  <!-- K1 relay -->
+  <rect x="530" y="100" width="90" height="100" rx="5" class="p"/>
+  <text x="575" y="122" text-anchor="middle" class="w h">K1</text><text x="575" y="136" text-anchor="middle">RELAY</text>
+  <path class="l" style="stroke-width:1.1" d="M545 160 h8 l3 -7 l5 14 l5 -14 l5 14 l3 -7 h8"/>
+  <text x="536" y="154" style="font-size:9.5px">IN</text>
+  <path class="r" d="M555 100 V50"/><circle cx="555" cy="50" r="3" fill="#ff6b6b"/>
+  <path class="g" d="M555 200 V400"/><circle cx="555" cy="400" r="3" fill="#c3d5e1"/>
+
+  <!-- mains side -->
+  <text x="636" y="116" style="fill:#ffb86b;font-size:10.5px">LIVE (L) IN</text>
+  <path class="m" d="M620 130 H640"/>
+  <path class="m" d="M620 170 H690 V250"/>
+  <text x="626" y="126" style="font-size:9.5px">COM</text><text x="626" y="166" style="font-size:9.5px">NO</text>
+  <circle cx="690" cy="272" r="22" class="p"/><path class="l" style="stroke:#ffd98a" d="M675 257 L705 287 M705 257 L675 287"/>
+  <text x="690" y="312" text-anchor="middle" class="w">LAMP</text>
+  <path class="m" d="M690 294 V350 H740"/><text x="722" y="340" style="fill:#ffb86b;font-size:10.5px">N</text>
+
+  <rect x="620" y="368" width="130" height="52" rx="5" fill="#ff6b6b" fill-opacity=".1" stroke="#ff6b6b"/>
+  <text x="685" y="388" text-anchor="middle" style="fill:#ff8f8f;font-size:9.5px" class="h">230 V AC DANGER</text>
+  <text x="685" y="402" text-anchor="middle" style="fill:#ff8f8f;font-size:9.5px">qualified electrician</text>
+  <text x="685" y="413" text-anchor="middle" style="fill:#ff8f8f;font-size:9.5px">must wire this part</text>
+</g>
+<text x="690" y="434" text-anchor="end" style="font-size:10.5px">DWG 04B · CIRCUIT · ILLUSTRATIVE, NOT FOR CONSTRUCTION</text>
+</svg>

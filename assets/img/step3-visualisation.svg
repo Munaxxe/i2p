@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 704 440" role="img" aria-label="Isometric cut-away of the bedroom showing the sensor box, ceiling light and detection zone">
+<style>
+text{font-family:system-ui,"Segoe UI","Helvetica Neue",Arial,sans-serif;fill:#c3d5e1;font-size:11px}
+.b{fill:#43B3E7}.w{fill:#fff}.h{font-weight:700}
+.l{fill:none;stroke:#43B3E7;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.d{fill:none;stroke:#5f7f93;stroke-width:1}
+.g{stroke:#43B3E7;stroke-opacity:.14;stroke-width:1}
+</style>
+<defs>
+<pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse"><path d="M22 0H0V22" fill="none" stroke="#43B3E7" stroke-opacity=".08"/></pattern>
+
+
+</defs>
+<rect width="704" height="440" fill="#06121b"/><rect width="704" height="440" fill="url(#grid)"/>
+
+<g transform="translate(80 25)">
+  <!-- floor -->
+  <polygon points="320,170 95,300 225,375 450,245" fill="#0c2231" stroke="#43B3E7" stroke-opacity=".6"/>
+  <g class="g">
+    <line x1="346" y1="185" x2="121" y2="315"/><line x1="372" y1="200" x2="147" y2="330"/><line x1="398" y1="215" x2="173" y2="345"/><line x1="424" y1="230" x2="199" y2="360"/>
+    <line x1="275" y1="196" x2="405" y2="271"/><line x1="230" y1="222" x2="360" y2="297"/><line x1="185" y1="248" x2="315" y2="323"/><line x1="140" y1="274" x2="270" y2="349"/>
+  </g>
+  <!-- walls -->
+  <polygon points="320,170 95,300 95,170 320,40" fill="#0a1b28" stroke="#43B3E7" stroke-opacity=".7"/>
+  <polygon points="320,170 450,245 450,115 320,40" fill="#0d2535" stroke="#43B3E7" stroke-opacity=".7"/>
+  <!-- door -->
+  <polygon points="286,190 219,229 219,129 286,90" fill="#07121b" stroke="#43B3E7" stroke-opacity=".6"/>
+  <circle cx="226" cy="175" r="2.5" fill="#43B3E7"/>
+
+  <!-- PIR detection zone on the floor -->
+  <polygon points="218.75,228.5 348.75,303.5 281.25,342.5 151.25,267.5" fill="#43B3E7" fill-opacity=".16" stroke="#43B3E7" stroke-dasharray="5 4"/>
+  <path class="d" stroke-dasharray="4 4" d="M180.5 170.6 L348.75 303.5 M180.5 170.6 L281.25 342.5"/>
+
+  <!-- bed -->
+  <polygon points="259.1,223.2 355.3,278.7 355.3,252.7 259.1,197.2" fill="#12303f" stroke="#43B3E7" stroke-opacity=".7"/>
+  <polygon points="431.8,234.5 355.3,278.7 355.3,252.7 431.8,208.5" fill="#0b1e2b" stroke="#43B3E7" stroke-opacity=".7"/>
+  <polygon points="335.6,153.0 431.8,208.5 355.3,252.7 259.1,197.2" fill="#43B3E7" fill-opacity=".2" stroke="#43B3E7"/>
+  <polygon points="391.9,191.5 415.4,205.0 363.6,234.9 340.2,221.4" fill="#fff" fill-opacity=".22" stroke="#fff" stroke-opacity=".7"/>
+  <polygon points="391.9,198.5 415.4,212.0 415.4,205.0 391.9,191.5" fill="#fff" fill-opacity=".1" stroke="#fff" stroke-opacity=".5"/>
+  <polygon points="415.4,212.0 363.6,241.9 363.6,234.9 415.4,205.0" fill="#fff" fill-opacity=".1" stroke="#fff" stroke-opacity=".5"/>
+
+  <!-- light: cone + floor glow -->
+  <polygon points="284,138 199,266 369,266" fill="#ffd98a" fill-opacity=".11"/>
+  <ellipse cx="284" cy="266" rx="95" ry="52" fill="#ffd98a" fill-opacity=".09"/>
+  <line x1="284" y1="112" x2="284" y2="130" class="d"/>
+  <path d="M268 142 L300 142 L292 130 L276 130 Z" fill="#ffd98a"/>
+  <circle cx="284" cy="146" r="4" fill="#fff"/>
+
+  <!-- sensor box on wall -->
+  <polygon points="189.5,185.4 171.5,195.8 171.5,155.8 189.5,145.4" fill="#43B3E7" fill-opacity=".25" stroke="#43B3E7" stroke-width="1.6"/>
+  <ellipse cx="180.5" cy="170.6" rx="4" ry="6" fill="#fff"/>
+  <path class="l" style="stroke-width:1.2" d="M196 150 q10 4 14 14 M200 142 q16 6 22 24"><animate attributeName="stroke-opacity" values="1;.2;1" dur="1.6s" repeatCount="indefinite"/></path>
+
+  <!-- person -->
+  <circle cx="300" cy="278" r="6" fill="none" stroke="#fff" stroke-width="1.6"/>
+  <path d="M300 284 V304 M300 290 L290 300 M300 290 L310 300 M300 304 L293 320 M300 304 L307 320" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/>
+</g>
+
+<!-- callouts -->
+<g>
+  <path class="d" d="M252 188 L150 120"/><circle cx="252" cy="188" r="3" class="b"/>
+  <text x="14" y="104" class="b h">1  SENSOR BOX</text><text x="14" y="120">motion + light sensor + relay</text>
+
+  <path class="d" d="M364 162 L452 44"/><circle cx="364" cy="162" r="3" class="b"/>
+  <text x="456" y="40" class="b h">2  CEILING LIGHT</text><text x="456" y="56">switches on as you enter</text>
+
+  <path class="d" d="M418 318 L540 346"/><circle cx="418" cy="318" r="3" class="b"/>
+  <text x="496" y="362" class="b h">3  DETECTION ZONE</text><text x="496" y="378">about 5 m · 110°</text>
+
+  <rect x="34" y="330" width="30" height="52" rx="5" fill="none" stroke="#43B3E7" stroke-width="1.6"/><line x1="44" y1="376" x2="54" y2="376" stroke="#43B3E7"/>
+  <path class="d" stroke-dasharray="4 4" d="M66 340 C140 300 190 250 248 200"/>
+  <text x="76" y="396" class="b h">4  PHONE</text><text x="76" y="412">Wi-Fi control</text>
+</g>
+<text x="690" y="430" text-anchor="end" style="font-size:10.5px">DWG 03 · CONCEPT VISUALISATION · ILLUSTRATIVE</text>
+</svg>

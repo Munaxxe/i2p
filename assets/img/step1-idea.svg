@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 704 440" role="img" aria-label="A plain-English idea being interpreted into trigger, condition, action and extra">
+<style>
+text{font-family:system-ui,"Segoe UI","Helvetica Neue",Arial,sans-serif;fill:#c3d5e1;font-size:11px}
+.b{fill:#43B3E7}.w{fill:#fff}.h{font-weight:700}
+.l{fill:none;stroke:#43B3E7;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.f{fill:#43B3E7;fill-opacity:.1;stroke:#43B3E7;stroke-width:1.4}
+.p{fill:#0a1d2a;stroke:#2a4a5e;stroke-width:1.2}
+</style>
+<defs>
+<pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse"><path d="M22 0H0V22" fill="none" stroke="#43B3E7" stroke-opacity=".08"/></pattern>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#43B3E7"/></marker>
+</defs>
+<rect width="704" height="440" fill="#06121b"/><rect width="704" height="440" fill="url(#grid)"/>
+<g transform="translate(32 20)">
+  <text x="0" y="14" class="b h">01 · YOUR IDEA, SAID IN PLAIN ENGLISH</text>
+  <rect x="0" y="26" width="640" height="128" rx="10" class="f"/>
+  <text x="22" y="66" class="w" style="font-size:19px">“I want my bedroom light to turn on</text>
+  <text x="22" y="96" class="w" style="font-size:19px">when I enter the room, and I also want</text>
+  <text x="22" y="126" class="w" style="font-size:19px">to control it using my phone.”</text>
+
+  <path class="l" d="M320 164 V204" marker-end="url(#ar)" stroke-dasharray="5 4"><animate attributeName="stroke-dashoffset" from="18" to="0" dur="1s" repeatCount="indefinite"/></path>
+  <text x="336" y="190" class="b">i2P interprets the idea</text>
+
+  <rect x="0" y="222" width="314" height="68" rx="8" class="p"/><rect x="0" y="222" width="4" height="68" rx="2" class="b"/>
+  <text x="18" y="242" class="b h" style="font-size:10px">TRIGGER</text>
+  <text x="18" y="263" class="w" style="font-size:15px">You enter the room</text>
+  <text x="18" y="281" style="font-size:10.5px">sensor: motion (PIR)</text>
+
+  <rect x="326" y="222" width="314" height="68" rx="8" class="p"/><rect x="326" y="222" width="4" height="68" rx="2" class="b"/>
+  <text x="344" y="242" class="b h" style="font-size:10px">SUGGESTED BY i2P</text>
+  <text x="344" y="263" class="w" style="font-size:15px">Only when the room is dark</text>
+  <text x="344" y="281" style="font-size:10.5px">sensor: light level (LDR)</text>
+
+  <rect x="0" y="302" width="314" height="68" rx="8" class="p"/><rect x="0" y="302" width="4" height="68" rx="2" class="b"/>
+  <text x="18" y="322" class="b h" style="font-size:10px">ACTION</text>
+  <text x="18" y="343" class="w" style="font-size:15px">Your bedroom light switches on</text>
+  <text x="18" y="361" style="font-size:10.5px">output: relay + lamp circuit</text>
+
+  <rect x="326" y="302" width="314" height="68" rx="8" class="p"/><rect x="326" y="302" width="4" height="68" rx="2" class="b"/>
+  <text x="344" y="322" class="b h" style="font-size:10px">EXTRA</text>
+  <text x="344" y="343" class="w" style="font-size:15px">You control it from your phone</text>
+  <text x="344" y="361" style="font-size:10.5px">link: Wi-Fi + phone app</text>
+</g>
+<text x="680" y="430" text-anchor="end" style="font-size:10.5px">DWG 01 · IDEA INTERPRETATION · ILLUSTRATIVE</text>
+</svg>

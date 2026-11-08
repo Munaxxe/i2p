@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 704 440" role="img" aria-label="Inside the finished device with the lid removed: controller, relay, power module, sensors and terminals">
+<style>
+text{font-family:system-ui,"Segoe UI","Helvetica Neue",Arial,sans-serif;fill:#c3d5e1;font-size:10.5px}
+.b{fill:#43B3E7}.w{fill:#fff}.h{font-weight:700}
+.l{fill:none;stroke:#43B3E7;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.p{fill:#0a1d2a;stroke:#43B3E7;stroke-width:1.3}
+.n{fill:#43B3E7;stroke:none}.nt{fill:#00131d;font-weight:700;font-size:10px;text-anchor:middle}
+</style>
+<defs><pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse"><path d="M22 0H0V22" fill="none" stroke="#43B3E7" stroke-opacity=".08"/></pattern></defs>
+<rect width="704" height="440" fill="#06121b"/><rect width="704" height="440" fill="url(#grid)"/>
+<text x="104" y="40" class="b h" style="font-size:12px">INSIDE THE DEVICE · LID REMOVED · NOT TO SCALE</text>
+
+<!-- enclosure + board -->
+<rect x="104" y="54" width="496" height="310" rx="16" fill="#08161f" stroke="#43B3E7" stroke-width="2"/>
+<rect x="124" y="74" width="456" height="270" rx="8" fill="#0b2a2c" fill-opacity=".7" stroke="#43B3E7" stroke-opacity=".5"/>
+<g fill="#5f7f93"><circle cx="136" cy="86" r="5"/><circle cx="568" cy="86" r="5"/><circle cx="136" cy="332" r="5"/><circle cx="568" cy="332" r="5"/></g>
+
+<!-- S1 PIR -->
+<rect x="150" y="96" width="96" height="76" rx="6" class="p"/>
+<circle cx="198" cy="130" r="24" fill="#0e3a52" stroke="#43B3E7"/><circle cx="198" cy="130" r="14" fill="#2a6f93" stroke="#cfeeff" stroke-opacity=".6"/>
+<text x="198" y="166" text-anchor="middle">S1 PIR</text>
+<!-- U1 controller -->
+<rect x="296" y="96" width="132" height="124" rx="6" class="p"/>
+<path class="l" style="stroke-width:1.2" d="M306 104 h16 v12 h16 v-12 h16 v12 h16 v-12 h16 v12 h16 v-12"/>
+<rect x="318" y="134" width="88" height="62" rx="3" fill="#43B3E7" fill-opacity=".15" stroke="#43B3E7" stroke-opacity=".6"/>
+<text x="362" y="160" text-anchor="middle" class="w h">ESP32-C3</text><text x="362" y="176" text-anchor="middle">Wi-Fi + brain</text>
+<g stroke="#c3d5e1"><line x1="296" y1="140" x2="304" y2="140"/><line x1="296" y1="156" x2="304" y2="156"/><line x1="296" y1="172" x2="304" y2="172"/><line x1="296" y1="188" x2="304" y2="188"/><line x1="420" y1="140" x2="428" y2="140"/><line x1="420" y1="156" x2="428" y2="156"/><line x1="420" y1="172" x2="428" y2="172"/><line x1="420" y1="188" x2="428" y2="188"/></g>
+<text x="362" y="212" text-anchor="middle">U1 CONTROLLER</text>
+<!-- K1 relay -->
+<rect x="470" y="96" width="94" height="84" rx="6" fill="#0d3a66" fill-opacity=".7" stroke="#43B3E7" stroke-width="1.3"/>
+<path class="l" style="stroke-width:1.2" d="M486 130 h10 l3 -8 l6 16 l6 -16 l6 16 l3 -8 h10"/>
+<text x="517" y="156" text-anchor="middle" class="w h">RELAY</text><text x="517" y="170" text-anchor="middle">5 V · 10 A</text>
+<text x="517" y="114" text-anchor="middle">K1</text>
+<!-- PS1 -->
+<rect x="150" y="238" width="124" height="86" rx="6" class="p"/>
+<text x="212" y="274" text-anchor="middle" class="w h">AC → 5 V</text><text x="212" y="290" text-anchor="middle">power module</text><text x="212" y="312" text-anchor="middle">PS1</text>
+<!-- S2 LDR + R1 -->
+<circle cx="338" cy="282" r="14" fill="#0e3a52" stroke="#43B3E7"/><path class="l" style="stroke-width:1" d="M330 282 q4 -6 8 0 t8 0"/>
+<rect x="372" y="270" width="36" height="24" rx="3" fill="#7a5a2a" stroke="#ffb86b"/>
+<text x="338" y="314" text-anchor="middle">S2 LDR</text><text x="390" y="314" text-anchor="middle">R1 10k</text>
+<!-- TB1 -->
+<rect x="470" y="252" width="104" height="52" rx="5" class="p"/>
+<circle cx="490" cy="270" r="7" fill="#04101a" stroke="#c3d5e1"/><circle cx="522" cy="270" r="7" fill="#04101a" stroke="#c3d5e1"/><circle cx="554" cy="270" r="7" fill="#04101a" stroke="#c3d5e1"/>
+<text x="490" y="296" text-anchor="middle">L</text><text x="522" y="296" text-anchor="middle">N</text><text x="554" y="296" text-anchor="middle">LAMP</text>
+
+<!-- wires -->
+<path class="l" style="stroke:#ff6b6b" d="M246 112 H296"/>
+<path class="l" style="stroke:#ffd54a" d="M246 134 H296"/>
+<path class="l" style="stroke:#c3d5e1" d="M246 156 H296"/>
+<path class="l" style="stroke:#ffd54a" d="M428 156 H470"/>
+<path class="l" style="stroke:#ff6b6b" d="M274 262 H312 V220"/>
+<path class="l" style="stroke:#ffb86b;stroke-width:3" d="M517 180 V252"/>
+<path class="l" style="stroke:#ffb86b;stroke-width:3" d="M574 278 H600"/>
+<text x="254" y="108" style="font-size:9.5px">5V</text><text x="254" y="130" style="font-size:9.5px">OUT</text><text x="254" y="152" style="font-size:9.5px">GND</text>
+<text x="526" y="220" style="font-size:9.5px;fill:#ffb86b">switched mains</text>
+
+<!-- cable gland -->
+<circle cx="600" cy="278" r="10" fill="#04101a" stroke="#43B3E7" stroke-width="1.5"/>
+<text x="592" y="326" text-anchor="end">cable entry</text>
+
+<!-- numbered markers -->
+<g>
+  <circle cx="152" cy="98" r="9" class="n"/><text x="152" y="102" class="nt">1</text>
+  <circle cx="298" cy="98" r="9" class="n"/><text x="298" y="102" class="nt">2</text>
+  <circle cx="472" cy="98" r="9" class="n"/><text x="472" y="102" class="nt">3</text>
+  <circle cx="152" cy="240" r="9" class="n"/><text x="152" y="244" class="nt">4</text>
+  <circle cx="324" cy="268" r="9" class="n" style="display:none"/>
+  <circle cx="472" cy="254" r="9" class="n"/><text x="472" y="258" class="nt">5</text>
+</g>
+<text x="104" y="392"><tspan class="b h">1</tspan> Motion sensor   <tspan class="b h">2</tspan> Controller   <tspan class="b h">3</tspan> Relay (switches the lamp)</text>
+<text x="104" y="410"><tspan class="b h">4</tspan> Power module (mains → 5 V)   <tspan class="b h">5</tspan> Terminal block   · Light sensor + resistor</text>
+<text x="690" y="430" text-anchor="end" style="font-size:10.5px">DWG 06 · FINAL DEVICE (OPEN) · ILLUSTRATIVE</text>
+</svg>

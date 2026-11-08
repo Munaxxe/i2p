@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 704 440" role="img" aria-label="Phone app and web dashboard for controlling the bedroom light">
+<style>
+text{font-family:system-ui,"Segoe UI","Helvetica Neue",Arial,sans-serif;fill:#c3d5e1;font-size:10.5px}
+.b{fill:#43B3E7}.w{fill:#fff}.h{font-weight:700}
+.p{fill:#0a1d2a;stroke:#2a4a5e;stroke-width:1.2}
+</style>
+<defs>
+<pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse"><path d="M22 0H0V22" fill="none" stroke="#43B3E7" stroke-opacity=".08"/></pattern>
+
+</defs>
+<rect width="704" height="440" fill="#06121b"/><rect width="704" height="440" fill="url(#grid)"/>
+
+<!-- phone -->
+<rect x="52" y="22" width="190" height="380" rx="26" fill="#050b10" stroke="#43B3E7" stroke-width="2"/>
+<rect x="132" y="30" width="30" height="6" rx="3" fill="#1f3a4a"/>
+<text x="147" y="64" text-anchor="middle" class="w h" style="font-size:13px">Bedroom Light</text>
+<text x="147" y="80" text-anchor="middle">Home · Main bedroom</text>
+<circle cx="147" cy="155" r="62" fill="#ffd98a" fill-opacity=".1"/>
+<circle cx="147" cy="155" r="40" fill="#ffd98a" fill-opacity=".18" stroke="#ffd98a" stroke-width="2"/>
+<text x="147" y="162" text-anchor="middle" style="fill:#ffd98a;font-size:20px;font-weight:700">ON</text>
+<text x="147" y="216" text-anchor="middle">Motion 21:42 · stays on 5 min</text>
+<rect x="72" y="236" width="150" height="30" rx="15" class="p"/>
+<rect x="74" y="238" width="48" height="26" rx="13" fill="#43B3E7"/>
+<text x="98" y="255" text-anchor="middle" style="fill:#00131d;font-weight:700">Auto</text>
+<text x="147" y="255" text-anchor="middle">On</text><text x="198" y="255" text-anchor="middle">Off</text>
+<rect x="72" y="282" width="150" height="46" rx="8" class="p"/>
+<text x="84" y="300" class="b h">Light level</text><text x="84" y="316">Dark · 312 / 4095</text>
+<rect x="72" y="338" width="150" height="46" rx="8" class="p"/>
+<text x="84" y="356" class="b h">Connection</text><text x="84" y="372">Wi-Fi · strong</text>
+<text x="147" y="418" text-anchor="middle" class="b h">PHONE APP</text>
+
+<!-- browser dashboard -->
+<rect x="282" y="70" width="400" height="300" rx="10" fill="#050b10" stroke="#43B3E7" stroke-width="1.6"/>
+<line x1="282" y1="98" x2="682" y2="98" stroke="#1f3a4a"/>
+<circle cx="298" cy="84" r="4" fill="#ff6b6b"/><circle cx="312" cy="84" r="4" fill="#ffd54a"/><circle cx="326" cy="84" r="4" fill="#5eff9a"/>
+<rect x="346" y="76" width="220" height="16" rx="8" class="p"/><text x="456" y="88" text-anchor="middle" style="font-size:9.5px">192.168.1.42</text>
+<text x="300" y="124" class="w h" style="font-size:13px">Bedroom Light · Dashboard</text>
+<rect x="300" y="136" width="110" height="52" rx="8" class="p"/><text x="312" y="154" class="b h">STATUS</text><text x="312" y="176" style="fill:#ffd98a;font-size:16px;font-weight:700">ON</text>
+<rect x="422" y="136" width="110" height="52" rx="8" class="p"/><text x="434" y="154" class="b h">MOTION TODAY</text><text x="434" y="176" class="w" style="font-size:16px;font-weight:700">23</text>
+<rect x="544" y="136" width="120" height="52" rx="8" class="p"/><text x="556" y="154" class="b h">SCHEDULE</text><text x="556" y="176" class="w">18:00 to 06:00</text>
+<text x="300" y="214" class="b h">MOTION EVENTS · last 24 h</text>
+<g fill="#43B3E7" fill-opacity=".85">
+<rect x="304" y="326" width="10" height="6"/><rect x="320" y="326" width="10" height="4"/><rect x="336" y="324" width="10" height="8"/><rect x="352" y="326" width="10" height="6"/><rect x="368" y="326" width="10" height="4"/><rect x="384" y="322" width="10" height="10"/><rect x="400" y="318" width="10" height="14"/><rect x="416" y="326" width="10" height="6"/><rect x="432" y="328" width="10" height="4"/><rect x="448" y="326" width="10" height="6"/><rect x="464" y="328" width="10" height="4"/><rect x="480" y="326" width="10" height="6"/><rect x="496" y="324" width="10" height="8"/><rect x="512" y="318" width="10" height="14"/><rect x="528" y="300" width="10" height="32"/><rect x="544" y="270" width="10" height="62"/><rect x="560" y="246" width="10" height="86"/><rect x="576" y="262" width="10" height="70"/><rect x="592" y="290" width="10" height="42"/><rect x="608" y="306" width="10" height="26"/><rect x="624" y="318" width="10" height="14"/><rect x="640" y="324" width="10" height="8"/>
+</g>
+<line x1="300" y1="332" x2="664" y2="332" stroke="#2a4a5e"/>
+<text x="300" y="348">00:00</text><text x="456" y="348" text-anchor="middle">12:00</text><text x="664" y="348" text-anchor="end">23:59</text>
+<text x="482" y="410" text-anchor="middle" class="b h">WEB DASHBOARD (generated when needed)</text>
+<text x="690" y="434" text-anchor="end" style="font-size:10.5px">DWG 04D · PHONE APP + WEB · ILLUSTRATIVE</text>
+</svg>
