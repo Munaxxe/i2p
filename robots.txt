@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /apps-script/
 
-Sitemap: https://munaxxe.github.io/i2p/sitemap.xml
+Sitemap: https://i2p.co.zw/sitemap.xml
